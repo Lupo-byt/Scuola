@@ -45,7 +45,7 @@ public class Abitazione{
         this.cadastralCategory = cadastralCategory;
     }
 
-    public void aggiungiStanza(String tipoStanza, int mQ){
+    public void addRoom(String tipoStanza, int mQ){
         metriQuadri.put(tipoStanza.toLowerCase(), mQ);
     }
 

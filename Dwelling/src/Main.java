@@ -5,11 +5,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Abitazione abitazione = new Abitazione();
-        abitazione.aggiungiStanza("soggiorno", 28);
-        abitazione.aggiungiStanza("camera", 18);
-        abitazione.aggiungiStanza("cucina", 14);
-        abitazione.aggiungiStanza("bagno", 7);
-        abitazione.aggiungiStanza("studio", 11);
+        abitazione.addRoom("soggiorno", 28);
+        abitazione.addRoom("camera", 18);
+        abitazione.addRoom("cucina", 14);
+        abitazione.addRoom("bagno", 7);
+        abitazione.addRoom("studio", 11);
 
         List<String> stanze = new ArrayList<>(Arrays.asList("soggiorno", "camera", "camera", "cucina", "bagno", "bagno", "studio"));
 
