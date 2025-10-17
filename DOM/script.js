@@ -19,19 +19,12 @@ function remove_paragraf () {
 }
 
 function remove_last_item () {
-    const last = document.getElementById("p" + n);
-    if (last) {
-        last.remove();
-        n--;
-    }
+    document.getElementById("p" + n).remove();
+    n--;
 }
 
 function remove_chosen_item() {
-    const item = document.getElementById("p" + input_id.value);
-    if (item) {
-        item.remove();
-    }
-    
+    document.getElementById("p" + input_id.value).remove();    
 }
 
 btn_add.addEventListener("click", add_paragraf);
