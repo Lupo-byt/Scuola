@@ -1,14 +1,9 @@
-console.log("Hello, World!");
-
-if(3>5) {
-    console.log(true)
-} else {
-    console.log(false)
+function MediaVoti (voti) {
+    let somma = 0
+    for (let i = 0; i < voti.length; i++) {
+        somma += voti[i];
+    }
+    return somma / voti.length;
 }
 
-for (let i = 0; i < 5; i++) {
-    console.log("Ciao")
-}
-
-let s = "Hello World!";
-
+console.log(MediaVoti([8, 7, 9, 6, 10, 4, 2])); // Restituisce la media dei voti
