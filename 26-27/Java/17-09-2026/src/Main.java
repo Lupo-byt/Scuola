@@ -1,29 +1,42 @@
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        GeneratorePietanze chef = new GeneratorePietanze();
-
-        // --- Piatto 1: Un Risotto ---
-        Pietanza piatto1 = chef.creaPiatto(
-                BasePiatto.RISO,
-                Arrays.asList(Verdura.ZUCCHINA, Verdura.FIOR_DI_ZUCCA), // FIOR_DI_ZUCCA lo immaginiamo se espandi l'enum
-                Arrays.asList(Spezia.ZAFFERANO, Spezia.PEPE_NERO),
-                TipoCottura.PADELLA
-        );
-
-        // --- Piatto 2: Un Filetto di Pesce ---
-        Pietanza piatto2 = chef.creaPiatto(
-                BasePiatto.PESCE,
-                Arrays.asList(Verdura.PATATA, Verdura.POMODORO),
-                Arrays.asList(Spezia.ZENZERO, Spezia.CORIANDOLO),
-                TipoCottura.FORNO
-        );
-
-        // Stampiamo i risultati
-        System.out.println("IL MENÙ DI OGGI:\n");
-        piatto1.stampaRicetta();
-        piatto2.stampaRicetta();
+        
+        // 1. Creiamo un po' di ingredienti base
+        Verdure patata = new Verdure("Patata", 200);
+        Verdure zucchina = new Verdure("Zucchina", 150);
+        Verdure melanzana = new Verdure("Melanzana", 250);
+        
+        Spezie pepe = new Spezie("Pepe Nero", "Forte");
+        Spezie paprika = new Spezie("Paprika", "Dolce");
+        
+        // 2. Creiamo le liste degli ingredienti per il primo piatto
+        List<Verdure> verdurePerForno = new ArrayList<>();
+        verdurePerForno.add(patata);
+        verdurePerForno.add(melanzana);
+        
+        List<Spezie> speziePerForno = new ArrayList<>();
+        speziePerForno.add(paprika);
+        speziePerForno.add(pepe);
+        
+        // 3. Istanziamo il nostro "assemblatore"
+        CreazionePiatto chef = new CreazionePiatto();
+        
+        // 4. Facciamo creare il piatto passando le liste
+        Pietanze tegliaAlForno = chef.cucinaPiatto("Teglia di Verdure al Forno", verdurePerForno, speziePerForno);
+        
+        // 5. Mostriamo il risultato finale
+        tegliaAlForno.descriviPiatto();
+        
+        // -- Esempio rapido per un secondo piatto --
+        List<Verdure> verdureBollite = new ArrayList<>();
+        verdureBollite.add(zucchina);
+        
+        List<Spezie> spezieZero = new ArrayList<>(); // Piatto scondito, lista vuota
+        
+        Pietanze zucchineLight = chef.cucinaPiatto("Zucchine lesse", verdureBollite, spezieZero);
+        zucchineLight.descriviPiatto();
     }
 }
