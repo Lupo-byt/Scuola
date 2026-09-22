@@ -9,6 +9,7 @@ function MediaVoti(voti) {
     for (let i = 0; i < voti.length; i++) {
         somma += voti[i];
     }
+    console.log("Somma dei voti:", somma); // Log della somma per debug
     return somma / voti.length;
 }
 
