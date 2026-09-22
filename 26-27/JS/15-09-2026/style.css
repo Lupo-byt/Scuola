@@ -1,0 +1,134 @@
+/* Definiamo alcune variabili per i colori principali per facilitare eventuali modifiche */
+:root {
+    --primary-color: #007BFF;       /* Blu principale */
+    --primary-hover: #0056b3;       /* Blu scuro per l'hover */
+    --bg-color: #f0f2f5;            /* Grigio chiarissimo per lo sfondo */
+    --card-bg: #ffffff;             /* Bianco per la scheda */
+    --text-main: #333333;           /* Grigio scuro per il testo */
+    --border-color: #cccccc;        /* Grigio per i bordi */
+    --shadow: 0 8px 16px rgba(0,0,0,0.1); /* Ombreggiatura morbida */
+}
+
+/* Reset base per uniformare i margini su tutti i browser */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile del corpo della pagina */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    
+    /* Flexbox per centrare la scheda perfettamente nello schermo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+/* Il contenitore principale a forma di scheda (Card) */
+.container {
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 380px; /* Larghezza massima adatta anche ai telefoni */
+    text-align: center;
+}
+
+/* Titolo */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+/* Sezione di input */
+.input-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Mette l'input e il bottone sulla stessa riga */
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="number"] {
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s; /* Animazione fluida sul bordo */
+}
+
+/* Effetto quando si clicca sull'input */
+input[type="number"]:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Stile del bottone */
+button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: bold;
+}
+
+/* Effetto quando il mouse passa sul bottone */
+button:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Effetto di "pressione" al click */
+button:active {
+    transform: scale(0.96);
+}
+
+/* Sezione dei risultati */
+.results {
+    text-align: left;
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* Rende la parte della Media più visibile e separata dal resto */
+.highlight {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+}
+
+#listaVoti {
+    color: #666;
+    font-style: italic;
+    word-wrap: break-word; /* Va a capo se ci sono troppi voti */
+}

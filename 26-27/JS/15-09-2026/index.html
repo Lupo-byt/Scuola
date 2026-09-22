@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" ></script>
+    <title>Calcolatore Media Voti</title>
+    <!-- Collega il file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- L'attributo defer carica lo script dopo che l'HTML è pronto -->
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Calcolatore Media</h1>
+        
+        <div class="input-group">
+            <label for="inputVoto">Inserisci un voto:</label>
+            <div class="input-row">
+                <input type="number" id="inputVoto" min="1" max="10" step="0.25" placeholder="Es. 7.5">
+                <button id="btnAggiungi">Aggiungi</button>
+            </div>
+        </div>
+
+        <div class="results">
+            <div class="result-item">
+                <strong>Voti inseriti: </strong> 
+                <span id="listaVoti">Nessun voto</span>
+            </div>
+
+            <div class="result-item highlight">
+                <strong>Media: </strong> 
+                <span id="risultatoMedia">-</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
