@@ -12,6 +12,6 @@ public class Spezie {
 
     @Override
     public String toString() {
-        return nome + " (Intensità: " + intensita + ")";
+        return nome + " (Intensita': " + intensita + ")";
     }
 }
