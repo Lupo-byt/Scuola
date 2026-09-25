@@ -1,0 +1,1536 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Progetto Orologi UML",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"name": "MainDiagram",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGg2aBO4CFsP/4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Class-Orologio"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aBO4SFtuDE=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBO4CFsP/4="
+									},
+									"model": {
+										"$ref": "Class-Orologio"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBO4SFuNy8=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFtuDE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -272,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBO4SFvd3w=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFtuDE="
+											},
+											"font": "Arial;13;1",
+											"left": 67,
+											"top": 23,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "Orologio"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBO4SFw+KY=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFtuDE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -272,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBO4SFxbh4=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFtuDE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": -272,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 62,
+									"top": 16,
+									"width": 103.09814453125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aBO4SFuNy8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aBO4SFvd3w="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aBO4SFw+KY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aBO4SFxbh4="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGg2aBO4SFyTZc=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBO4CFsP/4="
+									},
+									"model": {
+										"$ref": "Class-Orologio"
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGg2aBO6CGSBhc=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFyTZc="
+											},
+											"model": {
+												"$ref": "Attr-Marca"
+											},
+											"font": "Arial;13;0",
+											"left": 67,
+											"top": 46,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "-marca: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGg2aBO6CGVWLA=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFyTZc="
+											},
+											"model": {
+												"$ref": "Attr-Modello"
+											},
+											"font": "Arial;13;0",
+											"left": 67,
+											"top": 61,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "-modello: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGg2aBO6CGYU7E=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFyTZc="
+											},
+											"model": {
+												"$ref": "Attr-Prezzo"
+											},
+											"font": "Arial;13;0",
+											"left": 67,
+											"top": 76,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "-prezzo: float",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 62,
+									"top": 41,
+									"width": 103.09814453125,
+									"height": 53
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGg2aBO4SFzBW8=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBO4CFsP/4="
+									},
+									"model": {
+										"$ref": "Class-Orologio"
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGg2aBO6SGbkfo=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFzBW8="
+											},
+											"model": {
+												"$ref": "Op-MostraOrario"
+											},
+											"font": "Arial;13;0",
+											"left": 67,
+											"top": 99,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "+mostraOrario()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGg2aBO6SGeuyw=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBO4SFzBW8="
+											},
+											"model": {
+												"$ref": "Op-ImpostaOra"
+											},
+											"font": "Arial;13;0",
+											"left": 67,
+											"top": 114,
+											"width": 93.09814453125,
+											"height": 13,
+											"text": "+impostaOra()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 62,
+									"top": 94,
+									"width": 103.09814453125,
+									"height": 38
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGg2aBO4SF0Ckk=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBO4CFsP/4="
+									},
+									"model": {
+										"$ref": "Class-Orologio"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": -136,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGg2aBO4SF1MX8=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBO4CFsP/4="
+									},
+									"model": {
+										"$ref": "Class-Orologio"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": -136,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 62,
+							"top": 16,
+							"width": 102.09814453125,
+							"height": 116,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aBO4SFtuDE="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGg2aBO4SFyTZc="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGg2aBO4SFzBW8="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGg2aBO4SF0Ckk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGg2aBO4SF1MX8="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGg2aBXQCGiT6w=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Class-OrologioSubacqueo"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aBXQCGj8WE=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGiT6w="
+									},
+									"model": {
+										"$ref": "Class-OrologioSubacqueo"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBXQCGk+mM=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGj8WE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -54,
+											"top": -346,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBXQCGl2kE=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGj8WE="
+											},
+											"font": "Arial;13;1",
+											"left": 349,
+											"top": 39,
+											"width": 165.3662109375,
+											"height": 13,
+											"text": "OrologioSubacqueo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBXQCGmMFg=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGj8WE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -54,
+											"top": -346,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBXQCGnL9M=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGj8WE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -54,
+											"top": -346,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 32,
+									"width": 175.3662109375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aBXQCGk+mM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aBXQCGl2kE="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aBXQCGmMFg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aBXQCGnL9M="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGg2aBXQCGo7Ic=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGiT6w="
+									},
+									"model": {
+										"$ref": "Class-OrologioSubacqueo"
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGg2aBXRSHTaYw=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGo7Ic="
+											},
+											"model": {
+												"$ref": "Attr-Profondita"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 62,
+											"width": 165.3662109375,
+											"height": 13,
+											"text": "-profonditaMassima: int",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 57,
+									"width": 175.3662109375,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGg2aBXQCGpk+Q=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGiT6w="
+									},
+									"model": {
+										"$ref": "Class-OrologioSubacqueo"
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGg2aBXRSHWZtk=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBXQCGpk+Q="
+											},
+											"model": {
+												"$ref": "Op-AttivaImmersione"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 85,
+											"width": 165.3662109375,
+											"height": 13,
+											"text": "+attivaModalitaImmersione()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 80,
+									"width": 175.3662109375,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGg2aBXQCGqV9I=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGiT6w="
+									},
+									"model": {
+										"$ref": "Class-OrologioSubacqueo"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -27,
+									"top": -173,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGg2aBXQCGrVXE=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGiT6w="
+									},
+									"model": {
+										"$ref": "Class-OrologioSubacqueo"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -27,
+									"top": -173,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 344,
+							"top": 32,
+							"width": 174.3662109375,
+							"height": 71,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aBXQCGj8WE="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGg2aBXQCGo7Ic="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGg2aBXQCGpk+Q="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGg2aBXQCGqV9I="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGg2aBXQCGrVXE="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAGg2aBXQCGsLZM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Gen-Sub-Orologio"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGg2aBXQCGt2ZA=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"model": {
+										"$ref": "Gen-Sub-Orologio"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 254,
+									"top": 79,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGg2aBXQCGuGTk=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"model": {
+										"$ref": "Gen-Sub-Orologio"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 254,
+									"top": 94,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGg2aBXQSGv8L0=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"model": {
+										"$ref": "Gen-Sub-Orologio"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 253,
+									"top": 50,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGg2aBXQCGsLZM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGg2aBO4CFsP/4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGg2aBXQCGiT6w="
+							},
+							"lineStyle": 1,
+							"points": "343:69;165:73",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGg2aBXQCGt2ZA="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGg2aBXQCGuGTk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGg2aBXQSGv8L0="
+							}
+						},
+						{
+							"_type": "UMLObjectView",
+							"_id": "AAAAAAGg2aBi6CHdjs4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Obj-Orologio1"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aBi6CHekJM=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBi6CHdjs4="
+									},
+									"model": {
+										"$ref": "Obj-Orologio1"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBi6CHfLVI=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHekJM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -166,
+											"top": -334,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBi6CHgrP4=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHekJM="
+											},
+											"font": "Arial;13;1",
+											"left": 37,
+											"top": 263,
+											"width": 125.85205078125,
+											"height": 13,
+											"underline": true,
+											"text": "orologio1: Orologio"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBi6CHh9iA=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHekJM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -166,
+											"top": -334,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBi6CHi8gA=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHekJM="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -166,
+											"top": -334,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 256,
+									"width": 135.85205078125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aBi6CHfLVI="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aBi6CHgrP4="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aBi6CHh9iA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aBi6CHi8gA="
+									}
+								},
+								{
+									"_type": "UMLSlotCompartmentView",
+									"_id": "AAAAAAGg2aBi6CHjttw=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBi6CHdjs4="
+									},
+									"model": {
+										"$ref": "Obj-Orologio1"
+									},
+									"subViews": [
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBi7SH3Z4c=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHjttw="
+											},
+											"model": {
+												"$ref": "Slot-O1-Marca"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 286,
+											"width": 125.85205078125,
+											"height": 13,
+											"text": "+marca = \"Rolex\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBi7SH64pc=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHjttw="
+											},
+											"model": {
+												"$ref": "Slot-O1-Modello"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 301,
+											"width": 125.85205078125,
+											"height": 13,
+											"text": "+modello = \"Datejust\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBi7SH9sv8=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBi6CHjttw="
+											},
+											"model": {
+												"$ref": "Slot-O1-Prezzo"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 316,
+											"width": 125.85205078125,
+											"height": 13,
+											"text": "+prezzo = 7500.00",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 281,
+									"width": 135.85205078125,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 32,
+							"top": 256,
+							"width": 134.85205078125,
+							"height": 78,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aBi6CHekJM="
+							},
+							"slotCompartment": {
+								"$ref": "AAAAAAGg2aBi6CHjttw="
+							}
+						},
+						{
+							"_type": "UMLObjectView",
+							"_id": "AAAAAAGg2aBwuCIB7HE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Obj-Orologio2"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aBwuCIC6Y4=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBwuCIB7HE="
+									},
+									"model": {
+										"$ref": "Obj-Orologio2"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBwuCIDGgk=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIC6Y4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -642,
+											"top": -192,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBwuCIEO5U=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIC6Y4="
+											},
+											"font": "Arial;13;1",
+											"left": 37,
+											"top": 359,
+											"width": 122.31640625,
+											"height": 13,
+											"underline": true,
+											"text": "orologio2: Orologio"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBwuCIFzPU=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIC6Y4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -642,
+											"top": -192,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aBwuCIGUbg=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIC6Y4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -642,
+											"top": -192,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 352,
+									"width": 132.31640625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aBwuCIDGgk="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aBwuCIEO5U="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aBwuCIFzPU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aBwuCIGUbg="
+									}
+								},
+								{
+									"_type": "UMLSlotCompartmentView",
+									"_id": "AAAAAAGg2aBwuCIHGwA=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aBwuCIB7HE="
+									},
+									"model": {
+										"$ref": "Obj-Orologio2"
+									},
+									"subViews": [
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBwvSIb7u0=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIHGwA="
+											},
+											"model": {
+												"$ref": "Slot-O2-Marca"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 382,
+											"width": 122.31640625,
+											"height": 13,
+											"text": "+marca = \"Casio\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBwvSIeWlc=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIHGwA="
+											},
+											"model": {
+												"$ref": "Slot-O2-Modello"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 397,
+											"width": 122.31640625,
+											"height": 13,
+											"text": "+modello = \"F-91W\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aBwvSIh6+w=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aBwuCIHGwA="
+											},
+											"model": {
+												"$ref": "Slot-O2-Prezzo"
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 412,
+											"width": 122.31640625,
+											"height": 13,
+											"text": "+prezzo = 20.00",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 32,
+									"top": 377,
+									"width": 132.31640625,
+									"height": 53
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 32,
+							"top": 352,
+							"width": 131.31640625,
+							"height": 78,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aBwuCIC6Y4="
+							},
+							"slotCompartment": {
+								"$ref": "AAAAAAGg2aBwuCIHGwA="
+							}
+						},
+						{
+							"_type": "UMLObjectView",
+							"_id": "AAAAAAGg2aCkwCIphRI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Obj-Subacqueo1"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aCkwCIqLQQ=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aCkwCIphRI="
+									},
+									"model": {
+										"$ref": "Obj-Subacqueo1"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aCkwCIrRNY=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIqLQQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -162,
+											"top": -396,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aCkwCIsdw0=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIqLQQ="
+											},
+											"font": "Arial;13;1",
+											"left": 349,
+											"top": 239,
+											"width": 209.01904296875,
+											"height": 13,
+											"underline": true,
+											"text": "subacqueo1: OrologioSubacqueo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aCkwCItF7s=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIqLQQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -162,
+											"top": -396,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aCkwCIuPhE=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIqLQQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -162,
+											"top": -396,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 232,
+									"width": 219.01904296875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aCkwCIrRNY="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aCkwCIsdw0="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aCkwCItF7s="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aCkwCIuPhE="
+									}
+								},
+								{
+									"_type": "UMLSlotCompartmentView",
+									"_id": "AAAAAAGg2aCkwCIvWRs=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aCkwCIphRI="
+									},
+									"model": {
+										"$ref": "Obj-Subacqueo1"
+									},
+									"subViews": [
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aCkwiJDPSU=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIvWRs="
+											},
+											"model": {
+												"$ref": "Slot-S1-Marca"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 262,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+marca = \"Omega\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aCkwyJG5t4=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIvWRs="
+											},
+											"model": {
+												"$ref": "Slot-S1-Modello"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 277,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+modello = \"Seamaster\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aCkwyJJlL4=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIvWRs="
+											},
+											"model": {
+												"$ref": "Slot-S1-Prezzo"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 292,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+prezzo = 6000.00",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aCkwyJMHVk=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aCkwCIvWRs="
+											},
+											"model": {
+												"$ref": "Slot-S1-Profondita"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 307,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+profonditaMassima = 300",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 257,
+									"width": 219.01904296875,
+									"height": 68
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 344,
+							"top": 232,
+							"width": 218.01904296875,
+							"height": 93,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aCkwCIqLQQ="
+							},
+							"slotCompartment": {
+								"$ref": "AAAAAAGg2aCkwCIvWRs="
+							}
+						},
+						{
+							"_type": "UMLObjectView",
+							"_id": "AAAAAAGg2aDfICJTsqE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "Obj-Subacqueo2"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGg2aDfICJUIlU=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aDfICJTsqE="
+									},
+									"model": {
+										"$ref": "Obj-Subacqueo2"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aDfICJV+l8=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJUIlU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -84,
+											"top": -372,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aDfICJWbPU=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJUIlU="
+											},
+											"font": "Arial;13;1",
+											"left": 349,
+											"top": 359,
+											"width": 209.01904296875,
+											"height": 13,
+											"underline": true,
+											"text": "subacqueo2: OrologioSubacqueo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aDfICJXDDA=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJUIlU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -84,
+											"top": -372,
+											"width": 65.72998046875,
+											"height": 13,
+											"text": "(from Root)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGg2aDfICJYTFE=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJUIlU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -84,
+											"top": -372,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 352,
+									"width": 219.01904296875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGg2aDfICJV+l8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGg2aDfICJWbPU="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGg2aDfICJXDDA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGg2aDfICJYTFE="
+									}
+								},
+								{
+									"_type": "UMLSlotCompartmentView",
+									"_id": "AAAAAAGg2aDfICJZZ8Q=",
+									"_parent": {
+										"$ref": "AAAAAAGg2aDfICJTsqE="
+									},
+									"model": {
+										"$ref": "Obj-Subacqueo2"
+									},
+									"subViews": [
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aDfIiJtDz4=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJZZ8Q="
+											},
+											"model": {
+												"$ref": "Slot-S2-Marca"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 382,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+marca = \"Seiko\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aDfIiJw5hs=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJZZ8Q="
+											},
+											"model": {
+												"$ref": "Slot-S2-Modello"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 397,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+modello = \"Prospex\"",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aDfIiJz5mY=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJZZ8Q="
+											},
+											"model": {
+												"$ref": "Slot-S2-Prezzo"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 412,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+prezzo = 500.00",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAGg2aDfIiJ2A90=",
+											"_parent": {
+												"$ref": "AAAAAAGg2aDfICJZZ8Q="
+											},
+											"model": {
+												"$ref": "Slot-S2-Profondita"
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 427,
+											"width": 209.01904296875,
+											"height": 13,
+											"text": "+profonditaMassima = 200",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 377,
+									"width": 219.01904296875,
+									"height": 68
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 344,
+							"top": 352,
+							"width": 218.01904296875,
+							"height": 93,
+							"nameCompartment": {
+								"$ref": "AAAAAAGg2aDfICJUIlU="
+							},
+							"slotCompartment": {
+								"$ref": "AAAAAAGg2aDfICJZZ8Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "Class-Orologio",
+					"name": "Orologio",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "Attr-Marca",
+							"name": "marca",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "Attr-Modello",
+							"name": "modello",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "Attr-Prezzo",
+							"name": "prezzo",
+							"visibility": "private",
+							"type": "float"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "Op-MostraOrario",
+							"name": "mostraOrario"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "Op-ImpostaOra",
+							"name": "impostaOra"
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "Class-OrologioSubacqueo",
+					"name": "OrologioSubacqueo",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "Gen-Sub-Orologio",
+							"source": {
+								"$ref": "Class-OrologioSubacqueo"
+							},
+							"target": {
+								"$ref": "Class-Orologio"
+							}
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "Attr-Profondita",
+							"name": "profonditaMassima",
+							"visibility": "private",
+							"type": "int"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "Op-AttivaImmersione",
+							"name": "attivaModalitaImmersione"
+						}
+					]
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "Obj-Orologio1",
+					"name": "orologio1",
+					"classifier": {
+						"$ref": "Class-Orologio"
+					},
+					"slots": [
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O1-Marca",
+							"name": "marca",
+							"type": "",
+							"value": "\"Rolex\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O1-Modello",
+							"name": "modello",
+							"type": "",
+							"value": "\"Datejust\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O1-Prezzo",
+							"name": "prezzo",
+							"type": "",
+							"value": "7500.00"
+						}
+					]
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "Obj-Orologio2",
+					"name": "orologio2",
+					"classifier": {
+						"$ref": "Class-Orologio"
+					},
+					"slots": [
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O2-Marca",
+							"name": "marca",
+							"type": "",
+							"value": "\"Casio\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O2-Modello",
+							"name": "modello",
+							"type": "",
+							"value": "\"F-91W\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-O2-Prezzo",
+							"name": "prezzo",
+							"type": "",
+							"value": "20.00"
+						}
+					]
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "Obj-Subacqueo1",
+					"name": "subacqueo1",
+					"classifier": {
+						"$ref": "Class-OrologioSubacqueo"
+					},
+					"slots": [
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S1-Marca",
+							"name": "marca",
+							"type": "",
+							"value": "\"Omega\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S1-Modello",
+							"name": "modello",
+							"type": "",
+							"value": "\"Seamaster\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S1-Prezzo",
+							"name": "prezzo",
+							"type": "",
+							"value": "6000.00"
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S1-Profondita",
+							"name": "profonditaMassima",
+							"type": "",
+							"value": "300"
+						}
+					]
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "Obj-Subacqueo2",
+					"name": "subacqueo2",
+					"classifier": {
+						"$ref": "Class-OrologioSubacqueo"
+					},
+					"slots": [
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S2-Marca",
+							"name": "marca",
+							"type": "",
+							"value": "\"Seiko\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S2-Modello",
+							"name": "modello",
+							"type": "",
+							"value": "\"Prospex\""
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S2-Prezzo",
+							"name": "prezzo",
+							"type": "",
+							"value": "500.00"
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "Slot-S2-Profondita",
+							"name": "profonditaMassima",
+							"type": "",
+							"value": "200"
+						}
+					]
+				}
+			]
+		}
+	]
+}
