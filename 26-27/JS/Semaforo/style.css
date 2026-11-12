@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.semaforo {
+    background-color: #333; /* Struttura del semaforo scura per far risaltare il bianco */
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.luce {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white; /* Stato iniziale completamente bianco */
+    border: 2px solid #111;
+    transition: background-color 0.3s ease; /* Effetto di transizione morbido */
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
